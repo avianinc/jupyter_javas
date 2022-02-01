@@ -2,6 +2,7 @@
 Jupyter lab java build including IAlf, iJava, and the Jupyter SysMLv2 kernel for testing purposes.
 
 Docker Image: `avianinc\jupyter_javas:main`
+- *Note: the image shows failed sometimes but it looks like it relative to a bandwidth limitation on gradle files. After a couple of hours it starts working again with no coe changes.*
 
 ## Usage
 
