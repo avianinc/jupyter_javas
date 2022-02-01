@@ -1,6 +1,6 @@
 FROM condaforge/mambaforge
 
-## Must add `DEBIAN_FRONTEND=noninteractive` to prevent any os waiting for user input situations.
+## Must add `DEBIAN_FRONTEND=noninteractive` to prevent any os waiting for user input situations
   ## see --> https://askubuntu.com/questions/909277/avoiding-user-interaction-with-tzdata-when-installing-certbot-in-a-docker-contai
 ARG DEBIAN_FRONTEND=noninteractive
 
