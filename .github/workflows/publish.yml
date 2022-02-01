@@ -11,7 +11,7 @@ on:
       - 'main'
   paths-ignore:
       - '**.md'
-      - '**.yml'
+      #- '**.yml'
 
 jobs:
   build-container:
