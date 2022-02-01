@@ -1,11 +1,11 @@
 # jupyter_javas
 Jupyter lab java build including IAlf, iJava, and the Jupyter SysMLv2 kernel for testing purposes.
 
-Docker Image: 'avianinc\jupyter_javas:main` ![Docker Publish](https://github.com/avianinc/jupyter_javas/actions/workflows/publish.yml/badge.svg)
+Docker Image: 'avianinc\jupyter_javas:main` ![Docker Publish](https://github.com/avianinc/jupyter_javas/actions/workflows/publish.yml/badge.svg?event=push)
 
 ## Usage
 
-1. Install Docker Desktop --> https://www.docker.com/products/docker-desktop (Requires admin privliges)
+1. Install Docker Desktop --> https://www.docker.com/products/docker-desktop (Requires admin privileges)
 2. From the command line pull the docker file --> `docker pull avianinc/jupyter_javas:main` (get a beer... it takes a bit)
     ![Pull the Container](./images/power_shell_pull2.png "Pull the Container")
 
