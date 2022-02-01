@@ -1,7 +1,7 @@
-# jupyter_javas
+# jupyter_javas ![Docker Publish](https://github.com/avianinc/jupyter_javas/actions/workflows/publish.yml/badge.svg?event=push)
 Jupyter lab java build including IAlf, iJava, and the Jupyter SysMLv2 kernel for testing purposes.
 
-Docker Image: 'avianinc\jupyter_javas:main` ![Docker Publish](https://github.com/avianinc/jupyter_javas/actions/workflows/publish.yml/badge.svg?event=push)
+Docker Image: `avianinc\jupyter_javas:main`
 
 ## Usage
 
@@ -43,6 +43,9 @@ The `Dockerfile` builds the image and when modified and pushed to github a workf
 #### *Jupyter-git* -  You must use a PAT (personal access token) to push files to your repo.
     - https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token 
 
-### Docker Command Line 
-- Build: `docker build -t jl_ijava .`  # dont for get the `.` after jl_java
-- Run: `docker run -p 8888:8888 -it jl_ijava jl_java`
+### Docker Command Line
+1. git pull https://github.com/avianinc/jupyter_javas.git
+2. cd jupyter_javas
+3. Build: `docker build -t jl_ijava .`  # dont for get the `.` after jl_java
+4. Run: `docker run -p 8888:8888 -it jl_ijava jl_java`
+5. browse: http://localhost:8888
