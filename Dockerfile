@@ -41,7 +41,7 @@ WORKDIR /tmp/IAlf
 RUN chmod +x gradlew
 RUN ./gradlew installKernel --user --param classpath:/tmp/alfi.jar --param alf-library-path:/tmp/alf/Libraries --param alf-model-path:/tmp/alf/Models --scan
 
-# RUN git clone "add a remote folder here..."
+# RUN git clone "add a remote folder here..." [Note: better for a set of static files but this shows how to dot it.]
 WORKDIR /notebooks
 RUN git clone https://github.com/avianinc/example_files.git
 
