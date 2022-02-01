@@ -3,7 +3,7 @@ Jupyter lab java build including IAlf, iJava, and the Jupyter SysMLv2 kernel for
 
 Docker Image: 'avianinc\jupyter_javas:main`
 
-![example branch parameter](https://github.com/github/docs/actions/workflows/main.yml/badge.svg?branch=feature-1)
+![example branch parameter](https://github.com/avianinc/jupyter_javas/actions/workflows/publish.yml/badge.svg?branch=feature-1)
 
 ## Usage
 
