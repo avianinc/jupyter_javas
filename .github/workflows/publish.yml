@@ -2,16 +2,15 @@ name: Publish DockerHub image
 
 on:
   push:
+    paths-ignore:
+      -'README.md'  
     branches:
       - 'main'
     tags:
       - 'v*'
-    paths-ignore:
-      - README.md
   pull_request:
     branches:
       - 'main'
-
 jobs:
   build-container:
     runs-on: ubuntu-latest
